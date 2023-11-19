@@ -1,10 +1,10 @@
-//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
+//
 const OpenAIApi = require("openai");
 const express = require("express");
 console.log("Hello");
 const openai = new OpenAIApi({
   organization: "org-2oXOXmYEm1eV6WSdI8amP8Rb",
-  apiKey: "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",
+  apiKey: "",
 });
 const bodyParser = require("body-parser");
 const cors = require("cors");
